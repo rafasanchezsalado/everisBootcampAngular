@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  background-color: #EEEEEE;}
+h2 {
+    color: yellow !important;
+}
+mat-form-field {
+    width: 100% !important;
+}
+mat-card {
+    margin: 1% !important;
+}
+button {
+    margin: 1% !important;
+    width: 25% !important;
+}
+
+table {
+    width: 100% !important;
+    margin: 1% auto;
+}
+mat-list-item {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+    font-size: smaller;
+}
+mat-list-item:hover {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+    font-size: smaller;
+    color: palevioletred;
+}

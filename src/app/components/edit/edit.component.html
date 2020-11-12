@@ -1,0 +1,29 @@
+<mat-card>
+    <mat-label>
+        <h3>
+            Edit an employee
+        </h3>
+    </mat-label>
+    <form class="" style="width: 100%;">
+        <mat-form-field class="example-full-width">
+            <mat-label>Name</mat-label>
+            <textarea matInput name="employee_name" [(ngModel)]="employee.employee_name" placeholder="First Name"
+                #employee_name></textarea>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+            <mat-label>Salary</mat-label>
+            <textarea matInput name="employee_salary" [(ngModel)]="employee.employee_salary" placeholder="salary"
+                #employee_salary></textarea>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+            <mat-label>Age</mat-label>
+            <textarea matInput name="employee_age" [(ngModel)]="employee.employee_age" placeholder="Age"
+                #employee_age></textarea>
+        </mat-form-field>
+        <br>
+        <button mat-raised-button type="submit" color="primary"
+            (click)="this.updateEmployee(this.employee)">Edit</button>
+    </form>
+</mat-card>
